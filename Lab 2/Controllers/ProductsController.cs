@@ -15,7 +15,7 @@ namespace Lab_2.Controllers
         }
         public ActionResult Details(string product)
         {
-            ViewBag.Message = "You selected product:" + product;
+            ViewBag.Message = "You selected product: " + product;
             return View();
         }
     }

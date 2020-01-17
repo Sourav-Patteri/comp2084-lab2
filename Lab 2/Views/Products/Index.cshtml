@@ -4,6 +4,7 @@
 }
 
 <h2>Index</h2>
-<li>@Html.ActionLink("Laptop", "Details", "Products")</li>
-<li>@Html.ActionLink("Tablet", "Details", "Products")</li>
-<li>@Html.ActionLink("Desktop", "Details", "Products")</li>
+
+        <li>@Html.ActionLink("Laptop", "Details", "Products", new {product = "laptop"}, null)</li>
+        <li>@Html.ActionLink("Tablet", "Details", "Products", new {product = "tablet"}, null)</li>
+        <li>@Html.ActionLink("Desktop", "Details", "Products", new {product = "desktop"}, null)</li>
